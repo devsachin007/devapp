@@ -7,7 +7,7 @@ import {Home} from "./components/Home";
 function App() {
   return<>
     <Routes>
-      <Route path="/devapp" element={<Home />} />
+      <Route exact path="/devapp" element={<Home />} />
       <Route path="/devapp/contact" element={<Contact />} />
     </Routes>
     </>
